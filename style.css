@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.5rem;
+    font-family: "Nunito" , sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-top: auto;
+    margin-bottom: auto;
+    /* background-image: linear-gradient(to left , red , white); */
+    background-image: radial-gradient(rgb(255, 165, 0) , rgb(245, 207, 135));
+}
+
+.card { 
+    background: white;
+    border: 1px solid black;
+    padding: 3rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 3px gray;
+    position: relative;
+}
+
+h3 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    color: red;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+.everything {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+input {
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 7px;
+    margin-left: 5px;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px ;
+}
+
+button {
+    background: rgb(45, 170, 248);
+    border-radius: 10px;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    color: white 
+}
+
+button:hover , button:focus {
+    background: rgb(112, 198, 252);
+    color: black ;
+    transform: scale(110%);
+    transition: all;
+    transition-duration: 200ms;
+    cursor: pointer;
+}
