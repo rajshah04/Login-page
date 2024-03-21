@@ -15,8 +15,6 @@ body {
     min-height: 100vh;
     margin-top: auto;
     margin-bottom: auto;
-    /* background-image: linear-gradient(to left , red , white); */
-    /* background-image: radial-gradient(rgb(255, 165, 0) , rgb(245, 207, 135)); */
 }
 
 .card { 
